@@ -21,7 +21,7 @@ Texture-Based Deep Learning for Histopathology Cancer Whole Slide Image (WSI) Cl
 
 2. Project Motivation
 
-Automatic histopathological Whole Slide Image (WSI) analysis for cancer classification has been highlighted along with the advancements in microscopic imaging techniques. Manual examination and diagnosis with WSIs is time-consuming and tiresome. Recently, deep convolutional neural networks have succeeded in histopathological image analysis. In this paper, we propose a novel cancer texture-based deep neural network (CAT-Net) that learns scalable texture features from histopathological WSIs. The innovation of CAT-Net is twofold: (1) capturing invariant spatial patterns by dilated convolutional layers and (2) Reducing model complexity while improving performance. Moreover, CAT-Net can provide distinctive texture patterns formed on cancerous regions of histopathological images compared to normal regions.
+Automatic histopathological Whole Slide Image (WSI) analysis for cancer classification has been highlighted along with the advancements in microscopic imaging techniques. Manual examination and diagnosis with WSIs is time-consuming and tiresome. Recently, deep convolutional neural networks have succeeded in histopathological image analysis. In this project, we propose a novel cancer texture-based deep neural network (CAT-Net) that learns scalable texture features from histopathological WSIs. The innovation of CAT-Net is twofold: (1) capturing invariant spatial patterns by dilated convolutional layers and (2) Reducing model complexity while improving performance. Moreover, CAT-Net can provide distinctive texture patterns formed on cancerous regions of histopathological images compared to normal regions.
 
 Frame work
 <<Image>>
@@ -48,7 +48,7 @@ With respect to the framework, This repository is partitioned into three main se
 
 4. How To Interact With Your Project 
 
-This project follows the Cross Industry Standard Process for Data Mining (CRISP-DM) by asking and answering analystical questions from Digital Pathologist. It adopts the Extract Trasform Load strategy to build pipelines ready made for deployment. A Medium Blog post on the following link describes the data loading process with pythorch for our model: !(Link)[https://medium.com/@tsakunelsonz/loading-and-training-a-neural-network-with-custom-dataset-via-transfer-learning-in-pytorch-8e672933469?source=friends_link&sk=587f18bded4163d4458939fd97563b96]
+This project follows the Cross Industry Standard Process for Data Mining (CRISP-DM) by asking and answering analystical questions from Digital Pathologist. It adopts the Extract Trasform Load strategy to build pipelines ready made for deployment. A Medium Blog post on the following link describes the data loading process with pythorch for our model: ![Link](https://medium.com/@tsakunelsonz/loading-and-training-a-neural-network-with-custom-dataset-via-transfer-learning-in-pytorch-8e672933469?source=friends_link&sk=587f18bded4163d4458939fd97563b96)
 
 This is A Novel Deep learning Cancer Texture Network (CAT-Net) for Cancer detection. I this project, Digital Pathology analysis using Deep Learning models is leveraged on Whole Slide Image (WSI) Biopsy with Pytorch (and Skorch) as framework. Detection and classification of cancerous cells with a heat map visual is adopted, to enhance automatic and accurate decision making by pathologist. Through the CRISP-DM model and ETL pipelines, an end-to-end framework is created, ready made for production. 
 
