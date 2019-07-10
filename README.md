@@ -25,7 +25,7 @@ Automatic histopathological Whole Slide Image (WSI) analysis for cancer classifi
 
 
 3. Dataset Description
-![Data Samples]()
+![Data Samples](https://github.com/Tsakunelson/Cancer-Texture-Network/blob/master/Slide1.PNG)
 We obtained gastroscopic biopsy specimen of 94 cases at the Gyeongsang National University Changwon Hospital (Changwon, Korea) between February 2016 and July 2017, and the tissue specimens were stained with hematoxylin and eosin (H&E) using standard protocols in routine clinical care. This study included 188 whole slide images (WSIs) with 26, 22, 40, 40 and 60 WSIs for well, moderately differentiated adenocarcinoma, poorly differentiated adenocarcinoma, poorly cohesive carcinoma including signet-ring cell features, and normal gastric mucosa, respectively. The histologic type and differentiation grade of the carcinoma was determined according to the classification system of the World Health Organization, fourth edition. This study was approved by the Institutional Review Board of Gyeongsang National University Hospital with a waiver for informed consent (2018-08-005-001). Out of the 188 WSIs, half (144 slides) are made of H&E stains, and the other half consist of identical slides, but made of CK stains as shown in Figure 19 obtained with Aperio image scope visualizer. For H&E slides, ~249k patches are extracted, with ~162k normal patches and ~87k tumor patches as explained in section 3.3. To promote a fair environment between both classes, we select all the ~87k tumor patches, and perform a random selection without replacement of ~87k out of ~162k equivalent normal patches. We split the resulting data into a train, validation and test ratio of 2:1:1.
 
 
