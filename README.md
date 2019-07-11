@@ -32,20 +32,20 @@ We obtained gastroscopic biopsy specimen of 94 cases at the Gyeongsang National 
 4. File Descriptions
 
 With respect to the framework, This repository is partitioned into three main sections:
-1. Data Preprocessing
-   - load_svs.py
-   - load_good_svs.py
-2. Training
-   - load_data.py
-   - gridSearchSkorch.py
-   - cat_net_model.py
-   - cat_net_model_spatial_pyramid_pooling.py
-3. Inferencing
-   - Predict.py
-   - Heat_map.py
+   1. Data Preprocessing
+      - load_svs.py
+      - load_good_svs.py
+   2. Training
+      - load_data.py
+      - gridSearchSkorch.py
+      - cat_net_model.py
+      - cat_net_model_spatial_pyramid_pooling.py
+   3. Inferencing
+      - Predict.py
+      - Heat_map.py
 
 
-5. How To Interact With Your Project 
+5. How To Interact With The Project 
 
 This project follows the Cross Industry Standard Process for Data Mining (CRISP-DM) by asking and answering analystical questions from Digital Pathologist. It adopts the Extract Trasform Load strategy to build pipelines ready made for deployment. A Medium Blog post on the following link describes the data loading process with pythorch for our model: [Link](https://medium.com/@tsakunelsonz/loading-and-training-a-neural-network-with-custom-dataset-via-transfer-learning-in-pytorch-8e672933469?source=friends_link&sk=587f18bded4163d4458939fd97563b96)
 
