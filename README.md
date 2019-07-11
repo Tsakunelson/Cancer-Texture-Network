@@ -52,9 +52,13 @@ This is A Novel Deep learning Cancer Texture Network (CAT-Net) for Cancer detect
 
 
 6. Authors, Acknowledgements
+
 Author
+
 Nelson Zange TSAKU 
 
 Acknowledgements 
+
   Much appreciations to Data X Lab for hands of advise and Orientation
+  
   Much appreciations to the Gyeongsang National University Changwon Hospital of Korea for providing relevant private datasets (Informed consent 2018-08-005-001)
